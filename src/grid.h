@@ -2,8 +2,8 @@
 // Created by synx on 8/19/25.
 //
 
-#ifndef DIJKSTRA_GRID_H
-#define DIJKSTRA_GRID_H
+#ifndef GRID_H
+#define GRID_H
 #include <vector>
 
 enum CellType {
@@ -19,4 +19,4 @@ grid_t initGrid(unsigned int width, unsigned int height);
 void fillGridRandom(grid_t &grid);
 
 
-#endif //DIJKSTRA_GRID_H
+#endif //GRID_H
