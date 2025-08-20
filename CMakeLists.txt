@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.1)
+cmake_minimum_required(VERSION 3.12)
 project(raylib_game_of_life)
 
 find_package(raylib 5.1 REQUIRED)
