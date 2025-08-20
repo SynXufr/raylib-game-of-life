@@ -15,12 +15,12 @@ void fillGridRandom(grid_t &grid) {
     std::mt19937 mt(rd());
     std::uniform_int_distribution<int> dist(0, 1);
 
-    for (int y = 0; y < grid.size(); ++y) {
-        for (int x = 0; x < grid.size(); ++x) {
+    for (auto & y : grid) {
+        for (auto & x : y) {
             switch (int val = dist(mt)) {
-                case 0: grid[y][x] = DEAD;
+                case 0: x = DEAD;
                     break;
-                case 1: grid[y][x] = ALIVE;
+                case 1: x = ALIVE;
                     break;
                 default: break;
             }
