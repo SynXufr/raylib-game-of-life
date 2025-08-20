@@ -18,7 +18,4 @@ grid_t initGrid(unsigned int width, unsigned int height);
 
 void fillGridRandom(grid_t &grid);
 
-// TODO: Add Unit Tests
-
-
 #endif //GRID_H
