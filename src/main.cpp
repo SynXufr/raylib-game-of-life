@@ -52,7 +52,7 @@ int main() {
                     grid[gridY][gridX] = ALIVE;
                 }
 
-                // Optional: if right button held, erase the wall
+                // Optional: if right button held, erase the cell
                 if (IsMouseButtonDown(MOUSE_RIGHT_BUTTON)) {
                     grid[gridY][gridX] = DEAD;
                 }
